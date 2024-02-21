@@ -21,7 +21,7 @@ public void checkPalindrome(String original) {
 
 	public static void main(String[] args) {
 Scanner s = new Scanner(System.in);
-palindrome p = new palidrome();
+Palindrome p = new Palidrome();
 		System.out.println("enter any name");
 		String original = s.next();
 		p.checkPalindrome(original);
