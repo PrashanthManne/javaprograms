@@ -2,12 +2,11 @@ package learnif;
 
 import java.util.Scanner;
 
-public class palindrome {
-	Scanner s = new Scanner(System.in);
+public class Palindrome {
+	
 
-	String Palindrome() {
-		System.out.println("enter any name");
-		String original = s.next();
+public void checkPalindrome(String original) {
+		
 		String reverse = "";
 
 		for (int i = original.length() - 1; i >= 0; i--) {
@@ -18,12 +17,14 @@ public class palindrome {
 			System.out.println("this is a palindrome ");
 		} else
 			System.out.println("this is not a palindrome ");
-
-		return reverse;
 	}
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+Scanner s = new Scanner(System.in);
+palindrome p = new palidrome();
+		System.out.println("enter any name");
+		String original = s.next();
+		p.checkPalindrome(original);
 
 	}
 
