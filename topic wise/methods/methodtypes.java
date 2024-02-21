@@ -23,9 +23,16 @@ public class methodtypes {
 	}
 	void div ()
 	{
+		try
+		{
 		System.out.println(" value of a = " +a +" values of b =" + b );
 		System.out.println(" division  of two  numbers " + (a / b));
-	}
+	}catch(Exception e	 )
+			{
+				System.out.println(e);
+			}
+
+		
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		methodtypes m = new methodtypes();
@@ -41,6 +48,7 @@ public class methodtypes {
 		m.sub();
 		m.mul();
 		m.div();
+		m.sub();
 				
 		
 	}
